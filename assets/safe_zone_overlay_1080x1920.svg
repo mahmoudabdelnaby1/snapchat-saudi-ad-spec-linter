@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920">
+  <rect width="1080" height="1920" fill="none"/>
+  <!-- Top Unsafe Buffer (175px) -->
+  <rect width="1080" height="175" fill="rgba(239, 68, 68, 0.4)"/>
+  <text x="540" y="100" fill="#fff" font-size="28" text-anchor="middle" font-family="sans-serif">TOP HEADER SAFE ZONE BUFFER (175px)</text>
+  <!-- Bottom Unsafe Buffer (340px) -->
+  <rect y="1580" width="1080" height="340" fill="rgba(239, 68, 68, 0.4)"/>
+  <text x="540" y="1760" fill="#fff" font-size="28" text-anchor="middle" font-family="sans-serif">BOTTOM SWIPE UP / CTA SAFE ZONE BUFFER (340px)</text>
+  <!-- Clean Safe Zone -->
+  <rect y="175" width="1080" height="1405" fill="none" stroke="rgba(16, 185, 129, 0.8)" stroke-width="4"/>
+</svg>
